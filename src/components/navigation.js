@@ -183,10 +183,6 @@ const Navigation = () => (
     </SiteTitle>
     <Nav aria-label="Primary Navigation">
       <NavList>
-        <NavItem to="/blur-up/" title="Blur Up" />
-        <NavItem to="/background-color/" title="Background Color" />
-        <NavItem to="/traced-svg/" title="Traced SVG" />
-        <NavItem to="/prefer-webp/" title="WebP" />
         <NavListItem>
           <a
             href="https://www.gatsbyjs.org/packages/gatsby-image/"
