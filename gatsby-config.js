@@ -3,6 +3,7 @@ module.exports = {
     `gatsby-plugin-emotion`,
     `gatsby-plugin-netlify`,
     `gatsby-transformer-sharp`,
+    `gatsby-transformer-remark`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -25,3 +26,31 @@ module.exports = {
     },
   ],
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

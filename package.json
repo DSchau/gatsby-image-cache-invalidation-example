@@ -13,7 +13,8 @@
     "gatsby-plugin-netlify": "^2.0.0",
     "gatsby-plugin-sharp": "^2.0.0",
     "gatsby-plugin-typography": "^2.2.0",
-    "gatsby-source-filesystem": "^2.0.33",
+    "gatsby-source-filesystem": "2.0.37-dev-1560780007606",
+    "gatsby-transformer-remark": "^2.4.0",
     "gatsby-transformer-sharp": "^2.1.19",
     "gatsby-transformer-yaml": "^2.1.0",
     "numeral": "^2.0.6",
@@ -29,7 +30,7 @@
   "main": "n/a",
   "scripts": {
     "develop": "gatsby develop",
-    "prebuild": "node scripts/invalidate-cache.js",
+    "prebuild": "node scripts/invalidate-version.js",
     "postbuild": "node scripts/get-cache-timestamp.js",
     "build": "gatsby build",
     "start": "npm run develop"
